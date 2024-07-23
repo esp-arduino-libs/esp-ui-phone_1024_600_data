@@ -1,0 +1,13 @@
+version: 0.1.0
+description: This package provides a stylesheet for esp-ui phone with a resolution of 1024x600.
+url: https://github.com/esp-arduino-libs/esp-ui-phone_1024_600_stylesheet
+issues: https://github.com/esp-arduino-libs/esp-ui-phone_1024_600_stylesheet/issues
+repository: https://github.com/esp-arduino-libs/esp-ui-phone_1024_600_stylesheet.git
+dependencies:
+  cmake_utilities: "0.*"
+  lvgl/lvgl:
+    version: "^8,<9"
+    public: true
+  esp-ui:
+    version: "0.1.*"
+    public: true
