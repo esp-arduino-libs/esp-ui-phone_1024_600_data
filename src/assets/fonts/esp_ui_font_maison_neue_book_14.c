@@ -1,7 +1,7 @@
 /*******************************************************************************
  * Size: 14 px
  * Bpp: 4
- * Opts: --bpp 4 --size 14 --no-compress --font esp_ui_phone_1024_600_font.ttf --range 32-127 --format lvgl -o esp_ui_phone_1024_600_font_14.c
+ * Opts: --bpp 4 --size 14 --no-compress --font Maison Neue-Book.ttf --range 32-127 --format lvgl -o esp_ui_font_maison_neue_book_14.c
  ******************************************************************************/
 
 #ifdef LV_LVGL_H_INCLUDE_SIMPLE
@@ -10,11 +10,11 @@
 #include "lvgl/lvgl.h"
 #endif
 
-#ifndef ESP_UI_PHONE_1024_600_FONT_14
-#define ESP_UI_PHONE_1024_600_FONT_14 1
+#ifndef ESP_UI_FONT_MAISON_NEUE_BOOK_14
+#define ESP_UI_FONT_MAISON_NEUE_BOOK_14 1
 #endif
 
-#if ESP_UI_PHONE_1024_600_FONT_14
+#if ESP_UI_FONT_MAISON_NEUE_BOOK_14
 
 /*-----------------
  *    BITMAPS
@@ -796,9 +796,9 @@ static lv_font_fmt_txt_dsc_t font_dsc = {
 
 /*Initialize a public general font descriptor*/
 #if LVGL_VERSION_MAJOR >= 8
-const lv_font_t esp_ui_phone_1024_600_font_14 = {
+const lv_font_t esp_ui_font_maison_neue_book_14 = {
 #else
-lv_font_t esp_ui_phone_1024_600_font_14 = {
+lv_font_t esp_ui_font_maison_neue_book_14 = {
 #endif
     .get_glyph_dsc = lv_font_get_glyph_dsc_fmt_txt,    /*Function pointer to get glyph's data*/
     .get_glyph_bitmap = lv_font_get_bitmap_fmt_txt,    /*Function pointer to get glyph's bitmap*/
@@ -820,5 +820,5 @@ lv_font_t esp_ui_phone_1024_600_font_14 = {
 
 
 
-#endif /*#if ESP_UI_PHONE_1024_600_FONT_14*/
+#endif /*#if ESP_UI_FONT_MAISON_NEUE_BOOK_14*/
 

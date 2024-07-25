@@ -13,27 +13,27 @@ extern "C" {
 #endif
 
 LV_IMG_DECLARE(esp_ui_phone_1024_600_wallpaper_drak_image);
-LV_FONT_DECLARE(esp_ui_phone_1024_600_font_8);
-LV_FONT_DECLARE(esp_ui_phone_1024_600_font_10);
-LV_FONT_DECLARE(esp_ui_phone_1024_600_font_12);
-LV_FONT_DECLARE(esp_ui_phone_1024_600_font_14);
-LV_FONT_DECLARE(esp_ui_phone_1024_600_font_16);
-LV_FONT_DECLARE(esp_ui_phone_1024_600_font_18);
-LV_FONT_DECLARE(esp_ui_phone_1024_600_font_20);
-LV_FONT_DECLARE(esp_ui_phone_1024_600_font_22);
-LV_FONT_DECLARE(esp_ui_phone_1024_600_font_24);
-LV_FONT_DECLARE(esp_ui_phone_1024_600_font_26);
-LV_FONT_DECLARE(esp_ui_phone_1024_600_font_28);
-LV_FONT_DECLARE(esp_ui_phone_1024_600_font_30);
-LV_FONT_DECLARE(esp_ui_phone_1024_600_font_32);
-LV_FONT_DECLARE(esp_ui_phone_1024_600_font_34);
-LV_FONT_DECLARE(esp_ui_phone_1024_600_font_36);
-LV_FONT_DECLARE(esp_ui_phone_1024_600_font_38);
-LV_FONT_DECLARE(esp_ui_phone_1024_600_font_40);
-LV_FONT_DECLARE(esp_ui_phone_1024_600_font_42);
-LV_FONT_DECLARE(esp_ui_phone_1024_600_font_44);
-LV_FONT_DECLARE(esp_ui_phone_1024_600_font_46);
-LV_FONT_DECLARE(esp_ui_phone_1024_600_font_48);
+LV_FONT_DECLARE(esp_ui_font_maison_neue_book_8);
+LV_FONT_DECLARE(esp_ui_font_maison_neue_book_10);
+LV_FONT_DECLARE(esp_ui_font_maison_neue_book_12);
+LV_FONT_DECLARE(esp_ui_font_maison_neue_book_14);
+LV_FONT_DECLARE(esp_ui_font_maison_neue_book_16);
+LV_FONT_DECLARE(esp_ui_font_maison_neue_book_18);
+LV_FONT_DECLARE(esp_ui_font_maison_neue_book_20);
+LV_FONT_DECLARE(esp_ui_font_maison_neue_book_22);
+LV_FONT_DECLARE(esp_ui_font_maison_neue_book_24);
+LV_FONT_DECLARE(esp_ui_font_maison_neue_book_26);
+LV_FONT_DECLARE(esp_ui_font_maison_neue_book_28);
+LV_FONT_DECLARE(esp_ui_font_maison_neue_book_30);
+LV_FONT_DECLARE(esp_ui_font_maison_neue_book_32);
+LV_FONT_DECLARE(esp_ui_font_maison_neue_book_34);
+LV_FONT_DECLARE(esp_ui_font_maison_neue_book_36);
+LV_FONT_DECLARE(esp_ui_font_maison_neue_book_38);
+LV_FONT_DECLARE(esp_ui_font_maison_neue_book_40);
+LV_FONT_DECLARE(esp_ui_font_maison_neue_book_42);
+LV_FONT_DECLARE(esp_ui_font_maison_neue_book_44);
+LV_FONT_DECLARE(esp_ui_font_maison_neue_book_46);
+LV_FONT_DECLARE(esp_ui_font_maison_neue_book_48);
 
 /* Home */
 #define ESP_UI_PHONE_1024_600_DARK_CORE_HOME_DATA_DEFAULT()                            \
@@ -45,27 +45,27 @@ LV_FONT_DECLARE(esp_ui_phone_1024_600_font_48);
         .text = {                                                                      \
             .default_fonts_num = 21,                                                   \
             .default_fonts = {                                                         \
-                ESP_UI_CORE_FONT_CUSTOM_SIZE(8, &esp_ui_phone_1024_600_font_8),        \
-                ESP_UI_CORE_FONT_CUSTOM_SIZE(10, &esp_ui_phone_1024_600_font_10),      \
-                ESP_UI_CORE_FONT_CUSTOM_SIZE(12, &esp_ui_phone_1024_600_font_12),      \
-                ESP_UI_CORE_FONT_CUSTOM_SIZE(14, &esp_ui_phone_1024_600_font_14),      \
-                ESP_UI_CORE_FONT_CUSTOM_SIZE(16, &esp_ui_phone_1024_600_font_16),      \
-                ESP_UI_CORE_FONT_CUSTOM_SIZE(18, &esp_ui_phone_1024_600_font_18),      \
-                ESP_UI_CORE_FONT_CUSTOM_SIZE(20, &esp_ui_phone_1024_600_font_20),      \
-                ESP_UI_CORE_FONT_CUSTOM_SIZE(22, &esp_ui_phone_1024_600_font_22),      \
-                ESP_UI_CORE_FONT_CUSTOM_SIZE(24, &esp_ui_phone_1024_600_font_24),      \
-                ESP_UI_CORE_FONT_CUSTOM_SIZE(26, &esp_ui_phone_1024_600_font_26),      \
-                ESP_UI_CORE_FONT_CUSTOM_SIZE(28, &esp_ui_phone_1024_600_font_28),      \
-                ESP_UI_CORE_FONT_CUSTOM_SIZE(30, &esp_ui_phone_1024_600_font_30),      \
-                ESP_UI_CORE_FONT_CUSTOM_SIZE(32, &esp_ui_phone_1024_600_font_32),      \
-                ESP_UI_CORE_FONT_CUSTOM_SIZE(34, &esp_ui_phone_1024_600_font_34),      \
-                ESP_UI_CORE_FONT_CUSTOM_SIZE(36, &esp_ui_phone_1024_600_font_36),      \
-                ESP_UI_CORE_FONT_CUSTOM_SIZE(38, &esp_ui_phone_1024_600_font_38),      \
-                ESP_UI_CORE_FONT_CUSTOM_SIZE(40, &esp_ui_phone_1024_600_font_40),      \
-                ESP_UI_CORE_FONT_CUSTOM_SIZE(42, &esp_ui_phone_1024_600_font_42),      \
-                ESP_UI_CORE_FONT_CUSTOM_SIZE(44, &esp_ui_phone_1024_600_font_44),      \
-                ESP_UI_CORE_FONT_CUSTOM_SIZE(46, &esp_ui_phone_1024_600_font_46),      \
-                ESP_UI_CORE_FONT_CUSTOM_SIZE(48, &esp_ui_phone_1024_600_font_48),      \
+                ESP_UI_CORE_FONT_CUSTOM_SIZE(8, &esp_ui_font_maison_neue_book_8),      \
+                ESP_UI_CORE_FONT_CUSTOM_SIZE(10, &esp_ui_font_maison_neue_book_10),    \
+                ESP_UI_CORE_FONT_CUSTOM_SIZE(12, &esp_ui_font_maison_neue_book_12),    \
+                ESP_UI_CORE_FONT_CUSTOM_SIZE(14, &esp_ui_font_maison_neue_book_14),    \
+                ESP_UI_CORE_FONT_CUSTOM_SIZE(16, &esp_ui_font_maison_neue_book_16),    \
+                ESP_UI_CORE_FONT_CUSTOM_SIZE(18, &esp_ui_font_maison_neue_book_18),    \
+                ESP_UI_CORE_FONT_CUSTOM_SIZE(20, &esp_ui_font_maison_neue_book_20),    \
+                ESP_UI_CORE_FONT_CUSTOM_SIZE(22, &esp_ui_font_maison_neue_book_22),    \
+                ESP_UI_CORE_FONT_CUSTOM_SIZE(24, &esp_ui_font_maison_neue_book_24),    \
+                ESP_UI_CORE_FONT_CUSTOM_SIZE(26, &esp_ui_font_maison_neue_book_26),    \
+                ESP_UI_CORE_FONT_CUSTOM_SIZE(28, &esp_ui_font_maison_neue_book_28),    \
+                ESP_UI_CORE_FONT_CUSTOM_SIZE(30, &esp_ui_font_maison_neue_book_30),    \
+                ESP_UI_CORE_FONT_CUSTOM_SIZE(32, &esp_ui_font_maison_neue_book_32),    \
+                ESP_UI_CORE_FONT_CUSTOM_SIZE(34, &esp_ui_font_maison_neue_book_34),    \
+                ESP_UI_CORE_FONT_CUSTOM_SIZE(36, &esp_ui_font_maison_neue_book_36),    \
+                ESP_UI_CORE_FONT_CUSTOM_SIZE(38, &esp_ui_font_maison_neue_book_38),    \
+                ESP_UI_CORE_FONT_CUSTOM_SIZE(40, &esp_ui_font_maison_neue_book_40),    \
+                ESP_UI_CORE_FONT_CUSTOM_SIZE(42, &esp_ui_font_maison_neue_book_42),    \
+                ESP_UI_CORE_FONT_CUSTOM_SIZE(44, &esp_ui_font_maison_neue_book_44),    \
+                ESP_UI_CORE_FONT_CUSTOM_SIZE(46, &esp_ui_font_maison_neue_book_46),    \
+                ESP_UI_CORE_FONT_CUSTOM_SIZE(48, &esp_ui_font_maison_neue_book_48),    \
             },                                                                         \
         },                                                                             \
         .container = {                                                                 \
