@@ -29,8 +29,6 @@ extern "C" {
             .enable_app_table_flex = 1,                               \
             .enable_backstage = 1,                                    \
             .enable_backstage_flex = 1,                               \
-            .enable_backstage_show_status_bar = 1,                    \
-            .enable_backstage_show_navigation_bar = 1,                \
         },                                                            \
     }
 
@@ -47,7 +45,6 @@ extern "C" {
         .flags = {                                      \
             .enable_gesture = 1,                        \
             .enable_backstage_snapshot_drag = 1,        \
-            .enable_backstage_snapshot_scroll_anim = 1, \
         },                                              \
     }
 
