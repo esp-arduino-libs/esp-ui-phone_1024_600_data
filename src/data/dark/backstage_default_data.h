@@ -16,16 +16,16 @@ LV_IMG_DECLARE(esp_ui_phone_1024_600_backstage_trash_image);
 
 #define ESP_UI_PHONE_1024_600_DARK_BACKSTAGE_SNAPSHOT_DATA_DEFAULT()   \
     {                                                                  \
-        .main_size = ESP_UI_CORE_OBJECT_SIZE_RECT(706, 450),           \
+        .main_size = ESP_UI_CORE_OBJECT_SIZE_RECT(614, 420),           \
         .title = {                                                     \
-            .main_size = ESP_UI_CORE_OBJECT_SIZE_RECT(706, 36),        \
+            .main_size = ESP_UI_CORE_OBJECT_SIZE_RECT(614, 60),        \
             .main_layout_column_pad = 10,                              \
             .icon_size = ESP_UI_CORE_OBJECT_SIZE_SQUARE(36),           \
             .text_font = ESP_UI_CORE_FONT_DEFAULT_SIZE(22),            \
             .text_color = ESP_UI_CORE_COLOR(0xFFFFFF),                 \
         },                                                             \
         .image = {                                                     \
-            .main_size = ESP_UI_CORE_OBJECT_SIZE_RECT(706, 414),       \
+            .main_size = ESP_UI_CORE_OBJECT_SIZE_RECT(614, 360),       \
             .radius = 22,                                              \
         },                                                             \
     }
@@ -34,8 +34,8 @@ LV_IMG_DECLARE(esp_ui_phone_1024_600_backstage_trash_image);
     {                                                                            \
         .main = {                                                                \
             .size = ESP_UI_CORE_OBJECT_SIZE_RECT_PERCENT(100, 100),              \
-            .layout_row_pad = 10,                                                \
-            .layout_top_pad = 20,                                                \
+            .layout_row_pad = 20,                                                \
+            .layout_top_pad = 0,                                                 \
             .layout_bottom_pad = 20,                                             \
             .background_color = ESP_UI_CORE_COLOR(0x1A1A1A),                     \
         },                                                                       \
