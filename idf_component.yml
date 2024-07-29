@@ -8,6 +8,4 @@ dependencies:
   lvgl/lvgl:
     version: "^8,<9"
     public: true
-  esp-ui:
-    version: "==0.1.*"
-    public: true
+  # esp-ui: "==0.1.*"
