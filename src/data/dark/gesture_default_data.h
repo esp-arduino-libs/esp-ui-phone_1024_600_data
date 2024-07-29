@@ -13,9 +13,9 @@ extern "C" {
 
 #define ESP_UI_PHONE_1024_600_DARK_GESTURE_DATA_DEFAULT() \
     {                                       \
-        .detect_period_ms = 40,             \
+        .detect_period_ms = 30,             \
         .threshold = {                      \
-            .direction_vertical = 50,       \
+            .direction_vertical = 10,       \
             .direction_horizon = 50,        \
             .direction_angle = 60,          \
             .top_edge = 50,                 \
