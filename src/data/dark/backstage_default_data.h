@@ -60,7 +60,6 @@ LV_IMG_DECLARE(esp_ui_phone_1024_600_backstage_trash_image);
             .enable_memory = 1,                                                  \
             .enable_table_height_flex = 1,                                       \
             .enable_table_snapshot_use_icon_image = 0,                           \
-            .enable_hide_when_no_snapshot = 1,                                   \
         },                                                                       \
     }
 
