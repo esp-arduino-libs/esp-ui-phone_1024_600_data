@@ -71,7 +71,7 @@ LV_IMG_DECLARE(esp_ui_phone_1024_600_wallpaper_drak_image);
     }
 
 /* Core */
-#define ESP_UI_PHONE_1024_600_DARK_CORE_INFO_DATA_DEFAULT_NAME    "EUI-Phone 1024x600"
+#define ESP_UI_PHONE_1024_600_DARK_CORE_INFO_DATA_DEFAULT_NAME    "EUI-Phone Drak 1024x600"
 #define ESP_UI_PHONE_1024_600_DARK_CORE_DATA_DEFAULT()                     \
     {                                                                      \
         .name = ESP_UI_PHONE_1024_600_DARK_CORE_INFO_DATA_DEFAULT_NAME,    \
