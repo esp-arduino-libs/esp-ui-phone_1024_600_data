@@ -28,7 +28,7 @@ LV_IMG_DECLARE(esp_ui_phone_status_bar_wifi_level_3_icon);
 /* Area */
 #define ESP_UI_PHONE_1024_600_DARK_STATUS_BAR_AREA_DATA_DEFAULT(w_percent, align) \
     {                                                                        \
-        .size = ESP_UI_CORE_OBJECT_SIZE_RECT_PERCENT(w_percent, 100),        \
+        .size = ESP_UI_STYLE_SIZE_RECT_PERCENT(w_percent, 100),        \
         .layout_column_align = align,                                        \
         .layout_column_start_offset = 40,                                    \
         .layout_column_pad = 8,                                              \
@@ -38,10 +38,10 @@ LV_IMG_DECLARE(esp_ui_phone_status_bar_wifi_level_3_icon);
 #define ESP_UI_PHONE_1024_600_DARK_STATUS_BAR_DATA_DEFAULT()                                                      \
     {                                                                                                        \
         .main = {                                                                                            \
-            .size = ESP_UI_CORE_OBJECT_SIZE_RECT_W_PERCENT(100, 50),                                         \
-            .background_color = ESP_UI_CORE_COLOR(0x38393A),                                                 \
-            .text_font = ESP_UI_CORE_FONT_DEFAULT_SIZE(22),                                                  \
-            .text_color = ESP_UI_CORE_COLOR(0xFFFFFF),                                                       \
+            .size = ESP_UI_STYLE_SIZE_RECT_W_PERCENT(100, 50),                                         \
+            .background_color = ESP_UI_STYLE_COLOR(0x38393A),                                                 \
+            .text_font = ESP_UI_STYLE_FONT_SIZE(22),                                                  \
+            .text_color = ESP_UI_STYLE_COLOR(0xFFFFFF),                                                       \
         },                                                                                                   \
         .area = {                                                                                            \
             .num = ESP_UI_STATUS_BAR_DATA_AREA_NUM_MAX,                                                      \
@@ -51,18 +51,18 @@ LV_IMG_DECLARE(esp_ui_phone_status_bar_wifi_level_3_icon);
                 ESP_UI_PHONE_1024_600_DARK_STATUS_BAR_AREA_DATA_DEFAULT(33, ESP_UI_STATUS_BAR_AREA_ALIGN_END),    \
             },                                                                                               \
         },                                                                                                   \
-        .icon_common_size = ESP_UI_CORE_OBJECT_SIZE_SQUARE(28),                                              \
+        .icon_common_size = ESP_UI_STYLE_SIZE_SQUARE(28),                                              \
         .battery = {                                                                                         \
             .area_index = ESP_UI_STATUS_BAR_DATA_AREA_NUM_MAX - 1,                                           \
             .icon_data = {                                                                                   \
                 .icon = {                                                                                    \
                     .image_num = 5,                                                                          \
                     .images = {                                                                              \
-                        ESP_UI_CORE_IMAGE_RECOLOR_WHITE(&esp_ui_phone_status_bar_battery_level_0_icon),      \
-                        ESP_UI_CORE_IMAGE_RECOLOR_WHITE(&esp_ui_phone_status_bar_battery_level_1_icon),      \
-                        ESP_UI_CORE_IMAGE_RECOLOR_WHITE(&esp_ui_phone_status_bar_battery_level_2_icon),      \
-                        ESP_UI_CORE_IMAGE_RECOLOR_WHITE(&esp_ui_phone_status_bar_battery_level_3_icon),      \
-                        ESP_UI_CORE_IMAGE_RECOLOR_WHITE(&esp_ui_phone_status_bar_battery_charge_icon),       \
+                        ESP_UI_STYLE_IMAGE_RECOLOR_WHITE(&esp_ui_phone_status_bar_battery_level_0_icon),      \
+                        ESP_UI_STYLE_IMAGE_RECOLOR_WHITE(&esp_ui_phone_status_bar_battery_level_1_icon),      \
+                        ESP_UI_STYLE_IMAGE_RECOLOR_WHITE(&esp_ui_phone_status_bar_battery_level_2_icon),      \
+                        ESP_UI_STYLE_IMAGE_RECOLOR_WHITE(&esp_ui_phone_status_bar_battery_level_3_icon),      \
+                        ESP_UI_STYLE_IMAGE_RECOLOR_WHITE(&esp_ui_phone_status_bar_battery_charge_icon),       \
                     },                                                                                       \
                 },                                                                                           \
             },                                                                                               \
@@ -73,10 +73,10 @@ LV_IMG_DECLARE(esp_ui_phone_status_bar_wifi_level_3_icon);
                 .icon = {                                                                                    \
                     .image_num = 4,                                                                          \
                     .images = {                                                                              \
-                        ESP_UI_CORE_IMAGE_RECOLOR_WHITE(&esp_ui_phone_status_bar_wifi_close_icon),           \
-                        ESP_UI_CORE_IMAGE_RECOLOR_WHITE(&esp_ui_phone_status_bar_wifi_level_1_icon),         \
-                        ESP_UI_CORE_IMAGE_RECOLOR_WHITE(&esp_ui_phone_status_bar_wifi_level_2_icon),         \
-                        ESP_UI_CORE_IMAGE_RECOLOR_WHITE(&esp_ui_phone_status_bar_wifi_level_3_icon),         \
+                        ESP_UI_STYLE_IMAGE_RECOLOR_WHITE(&esp_ui_phone_status_bar_wifi_close_icon),           \
+                        ESP_UI_STYLE_IMAGE_RECOLOR_WHITE(&esp_ui_phone_status_bar_wifi_level_1_icon),         \
+                        ESP_UI_STYLE_IMAGE_RECOLOR_WHITE(&esp_ui_phone_status_bar_wifi_level_2_icon),         \
+                        ESP_UI_STYLE_IMAGE_RECOLOR_WHITE(&esp_ui_phone_status_bar_wifi_level_3_icon),         \
                     },                                                                                       \
                 },                                                                                           \
             },                                                                                               \

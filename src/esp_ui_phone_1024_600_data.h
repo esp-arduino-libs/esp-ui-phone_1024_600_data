@@ -5,13 +5,13 @@
  */
 #pragma once
 
-#include "esp_ui_type.h"
+#include "esp_ui.h"
 
 #ifdef __cplusplus
 extern "C" {
 #endif
 
-extern const ESP_UI_PhoneData_t esp_ui_phone_1024_600_data_drak;
+extern const ESP_UI_PhoneStylesheet_t esp_ui_phone_1024_600_data_drak;
 
 #ifdef __cplusplus
 }
