@@ -16,7 +16,7 @@ LV_IMG_DECLARE(esp_ui_phone_1024_600_navigation_bar_image_back);
 LV_IMG_DECLARE(esp_ui_phone_1024_600_navigation_bar_image_home);
 LV_IMG_DECLARE(esp_ui_phone_1024_600_navigation_bar_image_backstage);
 
-#define ESP_UI_PHONE_1024_600_DARK_NAVIGATION_BAR_DATA_DEFAULT()                                        \
+#define ESP_UI_PHONE_1024_600_DARK_NAVIGATION_BAR_DATA()                                        \
     {                                                                                                   \
         .main = {                                                                                       \
             .size = ESP_UI_STYLE_SIZE_RECT_W_PERCENT(100, 80),                                    \

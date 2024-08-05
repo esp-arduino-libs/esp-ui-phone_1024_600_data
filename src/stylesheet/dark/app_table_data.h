@@ -11,7 +11,7 @@
 extern "C" {
 #endif
 
-#define ESP_UI_PHONE_1024_600_DARK_APP_TABLE_ICON_DATA_DEFAULT()        \
+#define ESP_UI_PHONE_1024_600_DARK_APP_TABLE_ICON_DATA()        \
     {                                                                   \
         .main = {                                                       \
             .size = ESP_UI_STYLE_SIZE_SQUARE(200),                \
@@ -27,7 +27,7 @@ extern "C" {
         }                                                               \
     }
 
-#define ESP_UI_PHONE_1024_600_DARK_APP_TABLE_DATA_DEFAULT()                                         \
+#define ESP_UI_PHONE_1024_600_DARK_APP_TABLE_DATA()                                         \
     {                                                                                               \
         .main = {                                                                                   \
             .y_start = 0,                                                                           \
@@ -45,7 +45,7 @@ extern "C" {
             .spot_inactive_background_color = ESP_UI_STYLE_COLOR(0xC6C6C6),                          \
             .spot_active_background_color = ESP_UI_STYLE_COLOR(0xFFFFFF),                            \
         },                                                                                          \
-        .icon = ESP_UI_PHONE_1024_600_DARK_APP_TABLE_ICON_DATA_DEFAULT(),                           \
+        .icon = ESP_UI_PHONE_1024_600_DARK_APP_TABLE_ICON_DATA(),                           \
         .flags = {                                                                                  \
             .enable_table_scroll_anim = 0,                                                          \
         },                                                                                          \

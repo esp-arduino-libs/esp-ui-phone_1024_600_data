@@ -14,7 +14,7 @@ extern "C" {
 
 LV_IMG_DECLARE(esp_ui_phone_1024_600_backstage_trash_image);
 
-#define ESP_UI_PHONE_1024_600_DARK_BACKSTAGE_SNAPSHOT_DATA_DEFAULT()   \
+#define ESP_UI_PHONE_1024_600_DARK_BACKSTAGE_SNAPSHOT_DATA()   \
     {                                                                  \
         .main_size = ESP_UI_STYLE_SIZE_RECT(614, 420),           \
         .title = {                                                     \
@@ -30,7 +30,7 @@ LV_IMG_DECLARE(esp_ui_phone_1024_600_backstage_trash_image);
         },                                                             \
     }
 
-#define ESP_UI_PHONE_1024_600_DARK_BACKSTAGE_DATA_DEFAULT()                      \
+#define ESP_UI_PHONE_1024_600_DARK_BACKSTAGE_DATA()                      \
     {                                                                            \
         .main = {                                                                \
             .size = ESP_UI_STYLE_SIZE_RECT_PERCENT(100, 100),              \
@@ -49,7 +49,7 @@ LV_IMG_DECLARE(esp_ui_phone_1024_600_backstage_trash_image);
         .snapshot_table = {                                                      \
             .main_size = ESP_UI_STYLE_SIZE_RECT_PERCENT(100, 100),         \
             .main_layout_column_pad = 40,                                        \
-            .snapshot = ESP_UI_PHONE_1024_600_DARK_BACKSTAGE_SNAPSHOT_DATA_DEFAULT(), \
+            .snapshot = ESP_UI_PHONE_1024_600_DARK_BACKSTAGE_SNAPSHOT_DATA(), \
         },                                                                       \
         .trash_icon = {                                                          \
             .default_size = ESP_UI_STYLE_SIZE_SQUARE(48),                  \

@@ -1,8 +1,8 @@
 version: 0.1.0
-description: This package provides the default data for esp-ui phone with a resolution of 1024x600.
-url: https://github.com/esp-arduino-libs/esp-ui-phone_data_1024_600
-issues: https://github.com/esp-arduino-libs/esp-ui-phone_data_1024_600/issues
-repository: https://github.com/esp-arduino-libs/esp-ui-phone_data_1024_600.git
+description: This package provides a stylesheet for esp-ui phone with a resolution of 1024x600.
+url: https://github.com/esp-arduino-libs/esp-ui-phone_1024_600_stylesheet
+issues: https://github.com/esp-arduino-libs/esp-ui-phone_1024_600_stylesheet/issues
+repository: https://github.com/esp-arduino-libs/esp-ui-phone_1024_600_stylesheet.git
 dependencies:
   lvgl/lvgl: "^8,<9"
   cmake_utilities: "0.*"

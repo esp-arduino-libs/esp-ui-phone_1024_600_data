@@ -11,7 +11,7 @@
 extern "C" {
 #endif
 
-#define ESP_UI_PHONE_1024_600_DARK_GESTURE_DATA_DEFAULT() \
+#define ESP_UI_PHONE_1024_600_DARK_GESTURE_DATA() \
     {                                       \
         .detect_period_ms = 30,             \
         .threshold = {                      \

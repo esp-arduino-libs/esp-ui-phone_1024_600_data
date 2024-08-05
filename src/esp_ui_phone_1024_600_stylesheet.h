@@ -5,24 +5,25 @@
  */
 #pragma once
 
-#include "core_default_data.h"
-#include "app_table_default_data.h"
-#include "backstage_default_data.h"
-#include "gesture_default_data.h"
-#include "navigation_bar_default_data.h"
-#include "status_bar_default_data.h"
+#include "esp_ui.h"
+#include "stylesheet/dark/core_data.h"
+#include "stylesheet/dark/app_table_data.h"
+#include "stylesheet/dark/backstage_data.h"
+#include "stylesheet/dark/gesture_data.h"
+#include "stylesheet/dark/navigation_bar_data.h"
+#include "stylesheet/dark/status_bar_data.h"
 
 #ifdef __cplusplus
 extern "C" {
 #endif
 
 /* Home */
-#define ESP_UI_PHONE_1024_600_DARK_HOME_DATA_DEFAULT()                              \
+#define ESP_UI_PHONE_1024_600_DARK_HOME_DATA()                              \
     {                                                                               \
-        .status_bar = ESP_UI_PHONE_1024_600_DARK_STATUS_BAR_DATA_DEFAULT(),         \
-        .navigation_bar = ESP_UI_PHONE_1024_600_DARK_NAVIGATION_BAR_DATA_DEFAULT(), \
-        .app_table = ESP_UI_PHONE_1024_600_DARK_APP_TABLE_DATA_DEFAULT(),           \
-        .backstage = ESP_UI_PHONE_1024_600_DARK_BACKSTAGE_DATA_DEFAULT(),           \
+        .status_bar = ESP_UI_PHONE_1024_600_DARK_STATUS_BAR_DATA(),         \
+        .navigation_bar = ESP_UI_PHONE_1024_600_DARK_NAVIGATION_BAR_DATA(), \
+        .app_table = ESP_UI_PHONE_1024_600_DARK_APP_TABLE_DATA(),           \
+        .backstage = ESP_UI_PHONE_1024_600_DARK_BACKSTAGE_DATA(),           \
         .flags = {                                                    \
             .enable_status_bar = 1,                                   \
             .enable_navigation_bar = 1,                               \
@@ -33,9 +34,9 @@ extern "C" {
     }
 
 /* Manager */
-#define ESP_UI_PHONE_1024_600_DARK_MANAGER_DATA_DEFAULT()             \
+#define ESP_UI_PHONE_1024_600_DARK_MANAGER_DATA()             \
     {                                                                 \
-        .gesture = ESP_UI_PHONE_1024_600_DARK_GESTURE_DATA_DEFAULT(), \
+        .gesture = ESP_UI_PHONE_1024_600_DARK_GESTURE_DATA(), \
         .backstage = {                                  \
             .drag_snapshot_y_step = 10,                 \
             .drag_snapshot_y_threshold = 50,            \
@@ -49,11 +50,11 @@ extern "C" {
     }
 
 /* Phone */
-#define ESP_UI_PHONE_1024_600_DARK_DATA_DEFAULT()                     \
+#define ESP_UI_PHONE_1024_600_DARK_STYLESHEET()               \
     {                                                                 \
-        .core = ESP_UI_PHONE_1024_600_DARK_CORE_DATA_DEFAULT(),       \
-        .home = ESP_UI_PHONE_1024_600_DARK_HOME_DATA_DEFAULT(),       \
-        .manager = ESP_UI_PHONE_1024_600_DARK_MANAGER_DATA_DEFAULT(), \
+        .core = ESP_UI_PHONE_1024_600_DARK_CORE_DATA(),       \
+        .home = ESP_UI_PHONE_1024_600_DARK_HOME_DATA(),       \
+        .manager = ESP_UI_PHONE_1024_600_DARK_MANAGER_DATA(), \
     }
 
 #ifdef __cplusplus

@@ -26,7 +26,7 @@ LV_IMG_DECLARE(esp_ui_phone_status_bar_wifi_level_2_icon);
 LV_IMG_DECLARE(esp_ui_phone_status_bar_wifi_level_3_icon);
 
 /* Area */
-#define ESP_UI_PHONE_1024_600_DARK_STATUS_BAR_AREA_DATA_DEFAULT(w_percent, align) \
+#define ESP_UI_PHONE_1024_600_DARK_STATUS_BAR_AREA_DATA(w_percent, align) \
     {                                                                        \
         .size = ESP_UI_STYLE_SIZE_RECT_PERCENT(w_percent, 100),        \
         .layout_column_align = align,                                        \
@@ -35,7 +35,7 @@ LV_IMG_DECLARE(esp_ui_phone_status_bar_wifi_level_3_icon);
     }
 
 /* Status Bar */
-#define ESP_UI_PHONE_1024_600_DARK_STATUS_BAR_DATA_DEFAULT()                                                      \
+#define ESP_UI_PHONE_1024_600_DARK_STATUS_BAR_DATA()                                                      \
     {                                                                                                        \
         .main = {                                                                                            \
             .size = ESP_UI_STYLE_SIZE_RECT_W_PERCENT(100, 50),                                         \
@@ -46,9 +46,9 @@ LV_IMG_DECLARE(esp_ui_phone_status_bar_wifi_level_3_icon);
         .area = {                                                                                            \
             .num = ESP_UI_STATUS_BAR_DATA_AREA_NUM_MAX,                                                      \
             .data = {                                                                                        \
-                ESP_UI_PHONE_1024_600_DARK_STATUS_BAR_AREA_DATA_DEFAULT(33, ESP_UI_STATUS_BAR_AREA_ALIGN_START),  \
-                ESP_UI_PHONE_1024_600_DARK_STATUS_BAR_AREA_DATA_DEFAULT(34, ESP_UI_STATUS_BAR_AREA_ALIGN_CENTER), \
-                ESP_UI_PHONE_1024_600_DARK_STATUS_BAR_AREA_DATA_DEFAULT(33, ESP_UI_STATUS_BAR_AREA_ALIGN_END),    \
+                ESP_UI_PHONE_1024_600_DARK_STATUS_BAR_AREA_DATA(33, ESP_UI_STATUS_BAR_AREA_ALIGN_START),  \
+                ESP_UI_PHONE_1024_600_DARK_STATUS_BAR_AREA_DATA(34, ESP_UI_STATUS_BAR_AREA_ALIGN_CENTER), \
+                ESP_UI_PHONE_1024_600_DARK_STATUS_BAR_AREA_DATA(33, ESP_UI_STATUS_BAR_AREA_ALIGN_END),    \
             },                                                                                               \
         },                                                                                                   \
         .icon_common_size = ESP_UI_STYLE_SIZE_SQUARE(28),                                              \

@@ -15,7 +15,7 @@ extern "C" {
 LV_IMG_DECLARE(esp_ui_phone_1024_600_wallpaper_drak_image);
 
 /* Home */
-#define ESP_UI_PHONE_1024_600_DARK_CORE_HOME_DATA_DEFAULT()                            \
+#define ESP_UI_PHONE_1024_600_DARK_CORE_HOME_DATA()                            \
     {                                                                                  \
         .background = {                                                                \
             .color = ESP_UI_STYLE_COLOR(0x1A1A1A),                                      \
@@ -60,7 +60,7 @@ LV_IMG_DECLARE(esp_ui_phone_1024_600_wallpaper_drak_image);
     }
 
 /* manager */
-#define ESP_UI_PHONE_1024_600_DARK_CORE_MANAGER_DATA_DEFAULT() \
+#define ESP_UI_PHONE_1024_600_DARK_CORE_MANAGER_DATA() \
     {                                                     \
         .app = {                                          \
             .max_running_num = 3,                         \
@@ -71,13 +71,13 @@ LV_IMG_DECLARE(esp_ui_phone_1024_600_wallpaper_drak_image);
     }
 
 /* Core */
-#define ESP_UI_PHONE_1024_600_DARK_CORE_INFO_DATA_DEFAULT_NAME    "EUI-Phone Drak 1024x600"
-#define ESP_UI_PHONE_1024_600_DARK_CORE_DATA_DEFAULT()                     \
+#define ESP_UI_PHONE_1024_600_DARK_CORE_INFO_DATA_NAME    "EUI-Phone Drak 1024x600"
+#define ESP_UI_PHONE_1024_600_DARK_CORE_DATA()                     \
     {                                                                      \
-        .name = ESP_UI_PHONE_1024_600_DARK_CORE_INFO_DATA_DEFAULT_NAME,    \
+        .name = ESP_UI_PHONE_1024_600_DARK_CORE_INFO_DATA_NAME,    \
         .screen_size = ESP_UI_STYLE_SIZE_RECT(1024, 600),            \
-        .home = ESP_UI_PHONE_1024_600_DARK_CORE_HOME_DATA_DEFAULT(),       \
-        .manager = ESP_UI_PHONE_1024_600_DARK_CORE_MANAGER_DATA_DEFAULT(), \
+        .home = ESP_UI_PHONE_1024_600_DARK_CORE_HOME_DATA(),       \
+        .manager = ESP_UI_PHONE_1024_600_DARK_CORE_MANAGER_DATA(), \
     }
 
 #ifdef __cplusplus

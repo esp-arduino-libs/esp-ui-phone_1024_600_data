@@ -1,3 +1,3 @@
-# esp-ui phone 1024x600 data
+# esp-ui phone 1024x600 stylesheet
 
-This package provides the default data for esp-ui phone with a resolution of 1024x600.
+This package provides a stylesheet for esp-ui phone with a resolution of 1024x600.
