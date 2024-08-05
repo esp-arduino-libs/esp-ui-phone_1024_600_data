@@ -7,3 +7,4 @@ idf_component_register(
     REQUIRES esp-ui)
 
 target_compile_definitions(${COMPONENT_LIB} PRIVATE "-DLV_LVGL_H_INCLUDE_SIMPLE")
+target_compile_options(${COMPONENT_LIB} PUBLIC "-Wno-missing-field-initializers")

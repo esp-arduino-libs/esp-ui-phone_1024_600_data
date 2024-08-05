@@ -4,6 +4,10 @@ url: https://github.com/esp-arduino-libs/esp-ui-phone_1024_600_stylesheet
 issues: https://github.com/esp-arduino-libs/esp-ui-phone_1024_600_stylesheet/issues
 repository: https://github.com/esp-arduino-libs/esp-ui-phone_1024_600_stylesheet.git
 dependencies:
-  lvgl/lvgl: "^8,<9"
   cmake_utilities: "0.*"
-  esp-ui: "==0.1.*"
+  lvgl/lvgl:
+    version: "^8,<9"
+    public: true
+  esp-ui:
+    version: "==0.1.*"
+    public: true
