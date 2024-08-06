@@ -1,3 +1,3 @@
-# esp-ui phone 1024x600 stylesheet
+# ESP-UI Phone 1024x600 Stylesheet
 
-This package provides a stylesheet for esp-ui phone with a resolution of 1024x600.
+This stylesheet is designed specifically for the [esp-ui](https://github.com/espressif/esp-ui) framework's Phone system, intended for use with a 1024x600 display.
